@@ -1,0 +1,28 @@
+13:53:38 **** Incremental Build of configuration Debug for project Programming_Assignment_2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L475xx -c -I../Core/Inc -I"C:/Users/Samuel Bernsen/STM32CubeIDE/workspace_1.11.2/Programming_Assignment_2/Drivers/BSP/Components/lps22hb" -I"C:/Users/Samuel Bernsen/STM32CubeIDE/workspace_1.11.2/Programming_Assignment_2/Drivers/BSP/Components/hts221" -I"C:/Users/Samuel Bernsen/STM32CubeIDE/workspace_1.11.2/Programming_Assignment_2/Drivers/BSP/B-L475E-IOT01" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Programming_Assignment_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Samuel Bernsen\STM32CubeIDE\workspace_1.11.2\Programming_Assignment_2\STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Programming_Assignment_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Programming_Assignment_2.elf
+ 
+arm-none-eabi-size   Programming_Assignment_2.elf 
+arm-none-eabi-objdump -h -S  Programming_Assignment_2.elf  > "Programming_Assignment_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  40564	    440	   7920	  48924	   bf1c	Programming_Assignment_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Programming_Assignment_2.list
+ 
+13:53:42 **** Incremental Build of configuration Debug for project Programming_Assignment_2 ****
+make -j16 all 
+arm-none-eabi-size   Programming_Assignment_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40564	    440	   7920	  48924	   bf1c	Programming_Assignment_2.elf
+Finished building: default.size.stdout
+ 
+13:53:57 **** Incremental Build of configuration Debug for project Programming_Assignment_2 ****
+make -j16 all 
+arm-none-eabi-size   Programming_Assignment_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40564	    440	   7920	  48924	   bf1c	Programming_Assignment_2.elf
+Finished building: default.size.stdout
+ 

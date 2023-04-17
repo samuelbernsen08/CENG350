@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkyLED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_demo Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Programming_Assignment_1,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IOT_Sensors Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:helloWorld2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Programming_Assignment_2 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkyLED\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkyLED\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IOT_Sensors\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Programming_Assignment_1/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Programming_Assignment_2\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:helloWorld2\ Debug/activeLaunchMode=run
