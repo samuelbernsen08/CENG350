@@ -720,7 +720,7 @@ static void MX_GPIO_Init(void)
   * @retval None
   */
 /* USER CODE END Header_StartPressureTask */
-void StartPressureTask(void const * argument)
+void StartTempTask(void const * argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
@@ -761,7 +761,7 @@ void StartPressureTask(void const * argument)
 * @retval None
 */
 /* USER CODE END Header_StartTempTask */
-void StartTempTask(void const * argument)
+void StartPressureTask(void const * argument)
 {
   /* USER CODE BEGIN StartTempTask */
   /* Infinite loop */
